@@ -1,0 +1,18 @@
+resources文件夹中的目录结构
+    static : 保存所有的静态资源
+    templates: 保存所有的模板页面（Spring Boot 默认jar包使用嵌入式的Tomcat ,默认不支持JSP页面）；可以使用模板引擎（freemarker 、thymeleaf）
+    application.properties: Spring Boot应用的配置文件，可以修改一些默认设置
+
+
+2.配置文件
+    1.配置文件
+    SpringBoot使用一个全局的配置文件，配置文件名是固定的
+        application.properties
+        application.yml
+
+    配置文件的作用: 修改SpringBoot自动配置的默认值；SpringBoot在底层都给我们自动配置好；
+
+    yml: AYML 是一个标记语言
+    标记语言：
+        以前的配置文件，大多使用的是xxx.xml文件
+        yml 以数据为中心，比json、xml更适合做配置文件
